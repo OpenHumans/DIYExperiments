@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+<div class="row">
+    <div class="col-md-9 col-lg-10">
+        <h1 class="mb-3">Dashboard: You've logged in with your OH account</h1>
+        <p>
+            Congrats! You've logged in.
+            Your data will be stored in files within your Open Humans account.
+            Files are listed below, and can also be seen in on
+            <a href="https://www.openhumans.org/activity/fitbit-intraday/">this
+            project's activity page</a> in the Open Humans website.
+        </p>
+    </div>
+    <div class="col d-none d-md-block" style="text-align: center;">
+        <img class="oh-cnxn-icon" src="{% static 'img/fitbit-intraday-icon.png' %}">
+    </div>
+</div>
+<hr>
+
+<h2>Your data</h2>
+
+{% if data_files %}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">name</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for data_file in data_files %}
+        <tr>
+            <td>
+                {{ data_file.basename }}
+            </td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="{{ data_file.download_url }}" download>Download</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>
+    No files are yet available. This probably is not used for DIYExperiments
+</p>
+{% endif %}
+
+{% endblock main %}
