@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
+    <!--1. Link VCalendar CSS-->
+    <link rel='stylesheet' href='https://unpkg.com/v-calendar/lib/v-calendar.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/vue-slider-component@3.0.28/dist-css/vue-slider-component.css'>
+  </head>
+  <body>
+    <div id='app'>
+      <h2>Preview</h2>
+      <vue-slider :change="randomInterval(value)" v-model="value" :min="1" :max="7" width="50%"></vue-slider>
+      {{value}}
+
+      <v-calendar :attributes="attrs"></v-calendar>
+    
+    </div>
+    <!--2. Link Vue Javascript-->
+    <script src='https://unpkg.com/vue/dist/vue.js'></script>
+    <!--3. Link VCalendar Javascript (Plugin automatically installed)-->
+    <script src='https://unpkg.com/v-calendar'></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-slider-component@2.8.13/dist/index.min.js"></script>
+    <!--4. Create the Vue instance-->
+    <script src="/static/js/calendar.js"></script>
+   
+  </body>
+</html>
