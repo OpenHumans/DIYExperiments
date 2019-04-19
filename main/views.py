@@ -35,7 +35,9 @@ def about(request):
     """
     Share further details about the project.
     """
-    return render(request, 'main/about.html')
+    auth_url = OpenHumansMember.get_auth_url()
+    context = {'auth_url': auth_url}
+    return render(request, 'main/about.html', context=context)
 
 
 def logout_user(request):
