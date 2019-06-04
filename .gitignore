@@ -1,7 +1,0 @@
-staticfiles/*
-.env
-db.sqlite3
-.DS_Store
-dump.rdb
-.idea/*
-__pycache__

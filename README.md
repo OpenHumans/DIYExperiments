@@ -1,40 +1,35 @@
-# Run DIYExperiments with Open Humans
+# DIY Experiments: Prototyping
 
-Heavily WIP
+**Why join now?** We have support this summer for data analysis & visualization for people that do prototyping -- join ASAP!
 
-## Local deployment
+## N-of-1 self-experiment with personal data.
 
-```
-pip install pipenv
-brew install redis
-git clone git@github.com:OpenHumans/DIYExperiments.git
-cd DIYExperiments
-pipenv install --dev
-pipenv run ./manage.py runserver
-```
+Do you have a question about yourself? Set it up in an A/B format, and collect data to answer your question.
 
-Follow some general instructions [here](https://github.com/gedankenstuecke/oh_data_uploader/blob/master/INSTALL.md).
+Example:
+* Question: "Does alcohol impair my sleep?"
+* Test: Alternating weeks -- zero alcohol vs. a beer every evening.
+* Collect data: Sleep tracker + morning sleep satisfaction survey
 
-### Open Humans Project Redirect Url
+## Join us!
 
-Set the redirect url to `http://127.0.0.1:5000/openhumans/complete` when [creating your project on open humans](https://github.com/gedankenstuecke/oh_data_uploader#step-3-create-your-project-on-open-humans). When the project is live you'll need to change it to the heroku url.
+Slack discussion:
+1. Use this link to get an account on Open Humans Slack: http://slackin.openhumans.org/
+2. Join [the #diy-experiments channel](https://openhumans.slack.com/messages/CJ2RY8QTG/)
 
-### Env file
+## Real examples so far...
 
-Make sure to set the following vars. The client id and secret is created [here](https://github.com/gedankenstuecke/oh_data_uploader#step-3-create-your-project-on-open-humans).
+* Does listening to music affect my mood?
+* Does skipping breakfast affect my tremor?
+* Does intermittent fasting help with my caloric goals?
 
-```
-OPENHUMANS_CLIENT_ID=your_client_id
-OPENHUMANS_CLIENT_SECRET=your_client_secret
-OPENHUMANS_APP_BASE_URL=http://127.0.0.1:5000
-```
+We aim to ask questions and observe a change in data we're measuring. (Or no change!) We can use data sources already supported by Open Humans, but don't feel limited to it.
 
-### Redis
+## Learn more about our goal.
 
-Before doing `heroku local`, need to have a redis instance running locally.
-One way to do that is:
+The goal is scale-up: we want to see community-led research. But research starts with you -- answering your own question is exciting! We think that's the natural starting point for growth. A [1-pager here](https://docs.google.com/document/d/1onavSwWbV3y0pMvT_VXApx-vmyDpxWryNKNBaGZ_2Rs/edit) describes this idea in more detail.
 
-```
-brew install redis
-redis-server
-```
+We expect this prototyping to result in:
+* Improved data imports in Open Humans
+* A set of open source data analysis notebooks that can be re-used in [Open Humans](https://exploratory.openhumans.org/)
+* Most importantly, a _much_ better idea of how to design a self-experimentation site/ecosystem
