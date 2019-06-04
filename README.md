@@ -29,7 +29,7 @@ We aim to ask questions and observe a change in data we're measuring. (Or no cha
 
 The goal is scale-up: we want to see community-led research. But research starts with you -- answering your own question is exciting! We think that's the natural starting point for growth. A [1-pager here](https://docs.google.com/document/d/1onavSwWbV3y0pMvT_VXApx-vmyDpxWryNKNBaGZ_2Rs/edit) describes this idea in more detail.
 
-We expect this prototyping to result in:
+We hope this prototyping will result in...
 * Improved data imports in Open Humans
 * A set of open source data analysis notebooks that can be re-used in [Open Humans](https://exploratory.openhumans.org/)
 * Most importantly, a _much_ better idea of how to design a self-experimentation site/ecosystem
