@@ -33,9 +33,9 @@ We aim to ask questions and observe a change in data we're measuring. (Or no cha
 
 ## Learn more.
 
-We're inspired by how valuable self-experimentation can be as a method for discover. See, for example, Allen Neuringer's decades of self-experimentation: https://quantifiedself.com/blog/allen-neuringers-many-decades-of-self-experimentation/
+We're inspired by how valuable self-experimentation can be as a method for discovery. For more inspiration, see [Allen Neuringer's decades of self-experimentation](https://quantifiedself.com/blog/allen-neuringers-many-decades-of-self-experimentation/) shared at the 2018 Quantified Self Conference.
 
-We also dream about the scale-up: we want to see community-led research. Research starts with you -- answering your own question is exciting! We think that's the natural starting point for growth. A [1-pager here](https://docs.google.com/document/d/1onavSwWbV3y0pMvT_VXApx-vmyDpxWryNKNBaGZ_2Rs/edit) describes this idea in more detail.
+We also dream about the scale-up: we want to see community-led research. But research starts with you -- answering your own question is exciting! We think that's the natural starting point for growth. A [1-pager here](https://docs.google.com/document/d/1onavSwWbV3y0pMvT_VXApx-vmyDpxWryNKNBaGZ_2Rs/edit) describes this idea in more detail.
 
 We hope this prototyping will result in...
 * Improved data imports in Open Humans
