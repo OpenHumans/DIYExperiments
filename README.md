@@ -17,6 +17,12 @@ Example:
 * Test: Alternating weeks -- zero alcohol vs. a beer every evening.
 * Collect data: Sleep tracker + morning sleep satisfaction survey
 
+### Tips.
+
+1. **Record data about the thing you want to change.** Does listening to music affect your mood? Record data about your mood.
+2. **Test an intervention.** Our default recommendation is to test between two conditions (A vs. B) and alternate between these weekly, for a total of six weeks (three weeks for each, with a pattern of ABABAB).
+3. **Check your data ASAP.** You're collecting data -- but is it good data? Share a copy with our analyst support for feedback. Some data sources end up being flawed! You don't want to waste 6 weeks collecting bad data.
+4. **Also track "adherence".** In addition to collecting data about the outcome (i.e. about what you think will be affected, like mood or sleep quality), consider collecting data about how well you stick to your plan. This is also called "adherence". Knowing when you stuck to the plan -- and when you didn't -- may help with data analysis.
 ### Real examples so far...
 
 * Does listening to music affect my mood?
@@ -25,16 +31,11 @@ Example:
 
 We aim to ask questions and observe a change in data we're measuring. (Or no change!) We can use data sources already supported by Open Humans, but don't feel limited to it.
 
-### Tips.
+## Learn more.
 
-1. **Record data about the thing you want to change.** Does listening to music affect your mood? Record data about your mood.
-2. **Test an intervention.** Our default recommendation is to test between two conditions (A vs. B) and alternate between these weekly, for a total of six weeks (three weeks for each, with a pattern of ABABAB).
-3. **Check your data ASAP.** You're collecting data -- but is it good data? Share a copy with our analyst support for feedback. Some data sources end up being flawed! You don't want to waste 6 weeks collecting bad data.
-4. **Also track "adherence".** In addition to collecting data about the outcome (i.e. about what you think will be affected, like mood or sleep quality), consider collecting data about how well you stick to your plan. This is also called "adherence". Knowing when you stuck to the plan -- and when you didn't -- may help with data analysis.
+We're inspired by how valuable self-experimentation can be as a method for discover. See, for example, Allen Neuringer's decades of self-experimentation: https://quantifiedself.com/blog/allen-neuringers-many-decades-of-self-experimentation/
 
-## Learn more about our goal.
-
-The goal is scale-up: we want to see community-led research. But research starts with you -- answering your own question is exciting! We think that's the natural starting point for growth. A [1-pager here](https://docs.google.com/document/d/1onavSwWbV3y0pMvT_VXApx-vmyDpxWryNKNBaGZ_2Rs/edit) describes this idea in more detail.
+We also dream about the scale-up: we want to see community-led research. Research starts with you -- answering your own question is exciting! We think that's the natural starting point for growth. A [1-pager here](https://docs.google.com/document/d/1onavSwWbV3y0pMvT_VXApx-vmyDpxWryNKNBaGZ_2Rs/edit) describes this idea in more detail.
 
 We hope this prototyping will result in...
 * Improved data imports in Open Humans
