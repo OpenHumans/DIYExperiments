@@ -17,13 +17,20 @@ Example:
 * Test: Alternating weeks -- zero alcohol vs. a beer every evening.
 * Collect data: Sleep tracker + morning sleep satisfaction survey
 
-## Real examples so far...
+### Real examples so far...
 
 * Does listening to music affect my mood?
 * Does skipping breakfast affect my tremor?
 * Does intermittent fasting help with my caloric goals?
 
 We aim to ask questions and observe a change in data we're measuring. (Or no change!) We can use data sources already supported by Open Humans, but don't feel limited to it.
+
+### Tips.
+
+1. **Record data about the thing you want to change.** Does listening to music affect your mood? Record data about your mood.
+2. **Test an intervention.** Our default recommendation is to test between two conditions (A vs. B) and alternate between these weekly, for a total of six weeks (three weeks for each, with a pattern of ABABAB).
+3. **Check your data ASAP.** You're collecting data -- but is it good data? Share a copy with our analyst support for feedback. Some data sources end up being flawed! You don't want to waste 6 weeks collecting bad data.
+4. **Also track "adherence".** In addition to collecting data about the outcome (i.e. about what you think will be affected, like mood or sleep quality), consider collecting data about how well you stick to your plan. This is also called "adherence". Knowing when you stuck to the plan -- and when you didn't -- may help with data analysis.
 
 ## Learn more about our goal.
 
