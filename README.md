@@ -23,13 +23,17 @@ Example:
 2. **Test an intervention.** Our default recommendation is to test between two conditions (A vs. B) and alternate between these weekly, for a total of six weeks (three weeks for each, with a pattern of ABABAB).
 3. **Check your data ASAP.** You're collecting data -- but is it good data? Share a copy with our analyst support for feedback. Some data sources end up being flawed! You don't want to waste 6 weeks collecting bad data.
 4. **Also track "adherence".** In addition to collecting data about the outcome (i.e. about what you think will be affected, like mood or sleep quality), consider collecting data about how well you stick to your plan. This is also called "adherence". Knowing when you stuck to the plan -- and when you didn't -- may help with data analysis.
+
 ### Real examples so far...
 
-* Does listening to music affect my mood?
-* Does skipping breakfast affect my tremor?
-* Does intermittent fasting help with my caloric goals?
+Some folks are logging their project in the Quantified Self forums: https://forum.quantifiedself.com/c/quantified-self/project-logs
 
-We aim to ask questions and observe a change in data we're measuring. (Or no change!) We can use data sources already supported by Open Humans, but don't feel limited to it.
+* [Tracking my tremor](https://forum.quantifiedself.com/t/tracking-my-tremor/7017)
+* [Experimenting with diet & diet log / mood / hunger tracking](https://forum.quantifiedself.com/t/experimenting-with-diet-diet-log-mood-hunger-tracking/7018)
+* Does listening to music affect my mood?
+* Does avoiding phone use improve my sleep?
+
+We aim to ask questions and observe a change in data we're measuring. (Or no change!) We can use data sources already supported by Open Humans, but don't feel limited to it. Do what works for you, even if that means tracking it manually!
 
 ## Learn more.
 
