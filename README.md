@@ -26,7 +26,7 @@ Example:
 
 ### Real examples so far...
 
-Some folks are logging their project in the Quantified Self forums: https://forum.quantifiedself.com/c/quantified-self/project-logs
+Some folks are logging their project in the [Quantified Self forums "Project Logs"](https://forum.quantifiedself.com/c/quantified-self/project-logs):
 
 * [Tracking my tremor](https://forum.quantifiedself.com/t/tracking-my-tremor/7017)
 * [Experimenting with diet & diet log / mood / hunger tracking](https://forum.quantifiedself.com/t/experimenting-with-diet-diet-log-mood-hunger-tracking/7018)
