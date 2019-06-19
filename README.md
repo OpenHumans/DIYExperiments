@@ -8,6 +8,11 @@ We'd love to have you join us! 😍 To join, you can...
 
 (3) [Add your experiment to this doc](https://docs.google.com/document/d/1raLOqcEdJ73guiBmprv6qOXdH7sQI8m6lY7E6BX3BiY/edit#) and you'll be upgraded to the core collaborating team. 😉
 
+(4) You can join and talk with others in our weekly videochat meetups:
+  - US meetup: **Thursdays 12pm Pacific / 3pm Eastern** https://meet.google.com/wsd-zvci-jjx
+
+(5) Record updates in the [Quantified Self forum Project Logs](https://forum.quantifiedself.com/c/quantified-self/project-logs)
+
 ## N-of-1 self-experiment with personal data.
 
 Do you have a question about yourself? Set it up in an A/B format, and collect data to answer your question.
